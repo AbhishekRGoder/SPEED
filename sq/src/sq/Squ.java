@@ -1,0 +1,20 @@
+package sq;
+import java.util.Scanner;
+
+public class Squ {
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int a=scan.nextInt();
+		int res=squareNumber(a);
+		System.out.println(res);
+		
+		
+	}
+	public static int squareNumber(int num) {
+		return num*num;
+		
+	}
+
+}
